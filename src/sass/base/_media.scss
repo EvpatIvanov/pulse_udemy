@@ -1,0 +1,150 @@
+@media (max-width: 1100px) {
+    /* .advantages{
+        padding-right: 60px;
+        padding-left: 60px;
+    } */
+    .container {
+        max-width: 850px;
+    }
+}
+
+@media (max-width: 991px) {
+    .advantages {
+        padding-left: 80px;
+        padding-right: 80px;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 30px;
+            max-width: 300px;
+        }
+        
+    }
+    .container{
+        width: 86%;
+    }
+
+    .title_left {
+        font-size: 30px;
+    }
+
+    .consultation {
+        padding-top: 85px;
+        &__descr {
+            font-size: 18px;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .header__official {
+        display: none;
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header, &__subheader{
+            text-align: center;
+        }
+        &__header{
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+    }
+
+    .title_left {
+        font-size: 26px;
+    }
+
+    .consultation {
+        padding-top: 80px;
+        &__descr {
+            font-size: 16px;
+        }
+    }
+    
+}
+
+@media(max-width: 650px) {
+    .title_left {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 514px) {
+    .title {
+        font-size: 25px;
+    }
+    .advantages__subtitle{
+        font-size: 16px;
+    }
+    .advantages {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .promo {
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            width: 100%;
+        }
+        &__icon:not(:nth-child(1)) {
+            margin-top: 25px;
+        }
+        &__wrapper {
+            margin-top: 50px;
+        }
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        min-height: 140px;
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .button_sm-screen {
+        width: 250px;
+    }
+
+    .title_left {
+        font-size: 16px;
+    }
+
+    .consultation {
+        padding-top: 50px;
+        &__descr {
+            font-size: 14px;
+        }
+    }
+}
+
+@media(max-width: 407px) {
+    .advantages__descr{
+        br {
+            display: none;
+        }
+        a {
+            display: block;
+        }
+    }
+
+    .feed-form {
+        width: 100%;
+    }
+
+    .title_left {
+        br {
+            display: none;
+        }
+        text-align: center;
+    }
+
+}
+
